@@ -1,4 +1,25 @@
-# ObjectOrientedGame-Python-Java-C-
-The main goal of the project is the implementation of a 2D virtual world simulator. The virtual world have the structure of a two-dimensional NxM grid. In this world, simple life forms will exist, each with different behavior depending on its species.
+🕹️ Object-Oriented 2D Virtual World Simulator 🌍
 
-All action in the simulator are performed in turns. During each turn, every living organism in the world perform an action appropriate to their kind. Some of them will move (animals), while others will remain static (plants). In case of a collision (one of the organisms enters a cell occupied by another organism) one of them wins, either by killing its opponent (i.e. wolf) or by reflecting the opponent's attack (i.e. turtle). The order of all actions during a single turn depends on the initiative of each living organism. The animals with the highest initiative move first. In case of animals with the same initiative, the order is determined by the animal's age (the oldest animal will move first). In case of a collision, the victory depends on the strength of both organisms - the stronger organism wins
+This project is part of a University course on Object-Oriented Programming (OOP). It involves creating a 2D virtual world simulator, where various life forms (e.g., animals and plants) interact within an NxM grid. The simulation follows turn-based actions based on each organism's behavior, initiative, and strength.
+
+🚀 Features:
+
+Turn-Based Actions: Organisms perform actions like moving, attacking, or staying static.
+Species Behavior: Different behaviors depending on the organism (e.g., animals moving, plants staying still).
+Collision System: When organisms collide, the stronger one wins, or one reflects the attack.
+
+📦 Installation
+Clone the repository:
+
+
+git clone https://github.com/MaksPek03/ObjectOrientedGame-Python.git
+cd ObjectOrientedGame-Python
+
+Run the simulation:
+Execute the Python file to start the simulation:
+
+
+python game_simulation.py
+
+📄 Documentation
+For a detailed explanation of the project and simulation mechanics, refer to the OOP Instructions in Instruction_oop.pdf.
